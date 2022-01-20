@@ -3,8 +3,8 @@ const validator = {
   // ...
 };
 
-document.getElementById("validar").addEventListener("click", function isValid() {
-  let creditCardNumber = document.getElementById("card").value;
+  function isValid(creditCardNumber) {
+ /* let creditCardNumber = document.getElementById("card").value;*/
   console.log(creditCardNumber);
   let numberCardReverse = creditCardNumber.split("").reverse();
   console.log(numberCardReverse);

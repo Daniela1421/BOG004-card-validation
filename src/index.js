@@ -1,3 +1,8 @@
-import validator from './validator.js';
+/*import validator from './validator.js';*/
 
-console.log(validator);
+/*import isValid from './validator.js';
+console.log(isValid());
+
+import maskify from './validator.js';
+console.log(maskify());*/
+

@@ -2,21 +2,6 @@
 const validator = {
   // ...
 };
-document.getElementById("validar").addEventListener("click", function maskify() {
-  let creditCardNumber = document.getElementById("card").value;
-  let numberCardNext = creditCardNumber.split("");
-  let ocultar = [];
-  for(let i = 0; i < numberCardNext.length; i++){
-    if(i < numberCardNext.length-4){
-      ocultar.push("#");
-    }else{
-      ocultar.push(numberCardNext[i]);
-     //console.log(ocultar)
-    }
-  }
-  let hiddenNumber = ocultar.join("");
-  console.log(hiddenNumber);
-
 
 document.getElementById("validar").addEventListener("click", function isValid() {
   let creditCardNumber = document.getElementById("card").value;
@@ -57,4 +42,19 @@ document.getElementById("validar").addEventListener("click", function isValid() 
   }
 });
 
-export default validator;
+document.getElementById("validar").addEventListener("click", function maskify() {
+  let creditCardNumber = document.getElementById("card").value;
+  let numberCardNext = creditCardNumber.split("");
+  let ocultar = [];
+  for(let i = 0; i < numberCardNext.length; i++){
+    if(i < numberCardNext.length-4){
+      ocultar.push("#");
+    }else{
+      ocultar.push(numberCardNext[i]);
+     //console.log(ocultar)
+    }
+  }
+  let hiddenNumber = ocultar.join("");
+  console.log(hiddenNumber);
+
+/*export default validator;*/

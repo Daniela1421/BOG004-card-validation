@@ -13,6 +13,9 @@ function takeCardNumber(){
 
 
 
+
+
+
 /*import isValid from './validator.js';
 console.log(isValid());
 

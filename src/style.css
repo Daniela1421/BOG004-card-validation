@@ -62,3 +62,7 @@ h1 {
   grid-row: 1 / 4;
   border: 1px black solid;
 }
+
+footer {
+    color: aqua;
+}

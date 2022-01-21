@@ -1,5 +1,17 @@
 import validator from './validator.js';
-let creditCardNumber = document.getElementById("card").value;
+
+document.getElementById("validar").addEventListener("click", takeCardNumber)
+
+
+function takeCardNumber(){
+    let creditCardNumber = document.getElementById("card").value;
+    validator.isValid(creditCardNumber)
+    //validator.makkify(creditCardNumber) ?????
+
+}
+
+
+
 
 /*import isValid from './validator.js';
 console.log(isValid());

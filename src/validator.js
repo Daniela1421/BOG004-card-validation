@@ -40,7 +40,6 @@ function isValid(creditCardNumber){
       console.log(sum)
       if (sum % 10 == 0){
         console.log("Es valido")
-        maskify(creditCardNumber);
         return true
       }else{
         console.log("No es valido, verifique los datos")
@@ -64,6 +63,7 @@ function isValid(creditCardNumber){
      }
      let hiddenNumber = ocultar.join("");
      console.log(hiddenNumber);
+     return hiddenNumber;
 
 }
 

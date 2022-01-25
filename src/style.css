@@ -10,12 +10,27 @@ body {
     font-size: 16px;
 
     margin: 2em 2em 2em 2em;
-    padding: 3em;
+    padding: 1em 3em;
+
+    justify-content: center;
+    align-items: center;
 
 
     
 
 
+    
+
+
+}
+
+#pag3 {
+    display: none;
+
+}
+
+#pag2 {
+    display: block;
 }
 
 .logo {
@@ -59,8 +74,11 @@ h1 {
     display: inline-block;
 }
 
-
 .pagina2 {
+    padding: 1em 3em ;
+}
+
+.containerPag2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -75,6 +93,7 @@ h1 {
     max-width: 75em;
     /*margin: 1.25em, auto;*/
     margin: 2em 2em 2em 2em;
+
 
 
 
@@ -108,6 +127,11 @@ h1 {
   align-items: center;
 
 }
+
+
+
+
+
 
 footer {
     color: aqua;

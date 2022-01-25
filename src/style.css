@@ -12,10 +12,6 @@ body {
     margin: 2em 2em 2em 2em;
     padding: 3em;
 
-
-    
-
-
 }
 
 .logo {
@@ -60,7 +56,7 @@ h1 {
 }
 
 
-.pagina2 {
+#pagina2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -108,7 +104,46 @@ h1 {
   align-items: center;
 
 }
+#pagina3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
 
+
+}
+part1{
+   /* border: 2px groove blue;
+    grid-column: 1/2;
+    grid-row: 1;*/
+}
+part2{
+   /* border: 2px groove blue;
+    grid-column: 1/2;
+    grid-row: 2;*/
+}
+h4{
+    border: 1px groove blue;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+h2{
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+h5{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#card{
+    text-align: center;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
 footer {
     color: aqua;
 }

@@ -1,31 +1,26 @@
 import validator from './validator.js';
 
 
-/*document.getElementById("validar").addEventListener("click", takeCardNumber);
+document.getElementById("validar").addEventListener("click", takeCardNumber);
 
 
 function takeCardNumber(){
     let creditCardNumber = document.getElementById("card").value;
-    validator.isValid(creditCardNumber)
-    //validator.maskify(creditCardNumber) ?????
+    validator.isValid(creditCardNumber);
+    validator.maskify(creditCardNumber);
 
-}*/
+}
 
+//document.getElementById("pag3").style.display = 'none';
 
-document.getElementById("pag2").style.display = 'block';
-document.getElementById("pag3").style.display = 'none';
+document.getElementById("comprar1").addEventListener("click", ocultarPaginas);
 
-const btnComprar= document.getElementById("comprar1");
-btnComprar.addEventListener("click", () => {
-    const secPagina2 = document.getElementById("pag2").style = "display:none";
-    const secPagina3 = document.getElementById("pag3").style = "display:block";
-});
-
-/*function ocultarPaginas(){
-    document.getElementsById('pag2').style.display = 'none';
-    document.getElementsById('pag3').style.display = 'block';
-
-}*/
+function ocultarPaginas(){
+    
+    document.getElementById('pag2').style.display = 'none';
+    document.getElementById('pag3').style.display = 'block';
+    
+}
 
 
 

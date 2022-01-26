@@ -13,9 +13,7 @@ header {
     justify-content: center;
     border: 1px black solid;
 
-
-
-    
+    margin-top: 1em;  
 
     
 }
@@ -65,44 +63,6 @@ nav ul li a {
     
 }
 
-
-
-#redes {
-    display: flex;
-    align-items: flex-start;
-    
-    align-content: space-between;
-    border: 1px black solid;
-    flex-basis: 25%;
-    
-       
-}
-
-
-
-#redes a {
-    display: flex;
-    justify-content: space-around;
-    margin: 0%;
-
-}
-
-#redes a img {
-    
-    width: 50%;
-    height: 50%;
-}
-
-.animalitosPromo {
-    display: flex;
-    align-items: flex-end;
-    width: 30%;
-    height: 30%;
-
-
-    
-}
-
 #pag2 {
     display: block;
 }
@@ -127,6 +87,8 @@ main {
     flex-basis: 20%;
     flex-flow: row wrap;
     justify-content: center;
+
+    margin-top: 4em;
 
 }
 
@@ -155,12 +117,29 @@ main {
     flex-basis: 23%;
 
 }
+
+.two h3 img {
+    display: flex;
+    align-items: center;
+}
+
 .three {
     border: 1px black solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-basis: 23%;
+
+}
+
+.three h3 img {
+    display: flex;
+    align-items: center;
+    margin: 10em 0;
+}
+
+.three h4 {
+    margin: 4em 0 1.3em 0;
 
 }
 
@@ -173,6 +152,69 @@ main {
 
 }
 
+.four h3 img {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: 1px black solid;
+
+     
+}
+
+.redesFooter {
+    display: flex;
+    align-items: flex-start;
+    
+    align-content: space-between;
+    border: 1px black solid;
+    flex-basis: 25%;
+    object-fit: cover;
+    
+       
+}
+
+
+
+.redesFooter a {
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+
+}
+
+.redesFooter a img {
+    
+    width: 50%;
+    height: 50%;
+}
+
+.animalitosPromo {
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    height: 30%;
+    
+}
+
+.autors {
+    border: 1px black solid;
+}
+
+.datos {
+    border: 1px black solid;
+
+}
+
+.datos ul li {
+    display: block;
+    list-style: circle;
+}
 
 
 

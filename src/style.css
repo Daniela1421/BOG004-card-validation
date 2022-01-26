@@ -2,6 +2,10 @@ body{
     margin: 0;
     padding: 0;
     
+
+
+    
+    
     
     
 }
@@ -12,9 +16,9 @@ header {
     flex-flow: row nowrap;
     justify-content: center;
     border: 1px black solid;
-
-    margin-top: 1em;  
-
+    
+    background-color: aliceblue;
+    
     
 }
 
@@ -25,6 +29,8 @@ h1 {
     margin: 0%;
     justify-content: center;
     align-items: center;
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-size: 3em;
 }
 
 nav {
@@ -35,8 +41,9 @@ nav {
     flex-shrink: 2;
     padding: 0%;
     align-items: center;
-    
     justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.7em;
     
 
 }
@@ -49,7 +56,7 @@ nav ul {
     
 }
 
-ul li {   
+nav ul li {   
 
     list-style: none;
     display: inline-block;
@@ -78,17 +85,21 @@ main {
     padding-left: 4px;
     margin-right: 12em;
     margin-left: 12em;
+
+    
+    
 }
 
 .containerPag2 {
     border: 1px black solid;
-    
     display: flex;
     flex-basis: 20%;
     flex-flow: row wrap;
     justify-content: center;
-
+    gap: 1em;
     margin-top: 4em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
 
 }
 
@@ -99,6 +110,8 @@ main {
     flex-direction: column;
     align-items: center;
     flex-basis: 23%;
+    background-color: aliceblue;
+    border-radius: 5%;
 
     
 
@@ -115,6 +128,8 @@ main {
     flex-direction: column;
     align-items: center;
     flex-basis: 23%;
+    background-color: aliceblue;
+    border-radius: 5%;
 
 }
 
@@ -129,6 +144,8 @@ main {
     flex-direction: column;
     align-items: center;
     flex-basis: 23%;
+    background-color: aliceblue;
+    border-radius: 5%;
 
 }
 
@@ -149,6 +166,8 @@ main {
     flex-direction: column;
     align-items: center;
     flex-basis: 23%;
+    background-color: aliceblue;
+    border-radius: 5%;
 
 }
 
@@ -159,56 +178,68 @@ main {
 
 footer {
     display: flex;
-    
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     border: 1px black solid;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: aliceblue;
+    
 
      
 }
 
 .redesFooter {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     
     align-content: space-between;
     border: 1px black solid;
     flex-basis: 25%;
     object-fit: cover;
+    font-size: 1.3em;
+
     
-       
 }
-
-
+    
 
 .redesFooter a {
     display: flex;
     justify-content: space-around;
     margin: 0%;
+    
 
 }
 
 .redesFooter a img {
     
-    width: 50%;
-    height: 50%;
-}
-
-.animalitosPromo {
-    display: flex;
-    align-items: flex-end;
     width: 30%;
     height: 30%;
-    
 }
+
+
 
 .autors {
+    display: flex;
     border: 1px black solid;
-}
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;}
 
 .datos {
+    display: flex;
     border: 1px black solid;
+    flex-basis: 25%;
+    font-size: 1.3em;
+    align-items: center;
+}
 
+.datos ul {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding-left: 0.3em;
 }
 
 .datos ul li {

@@ -6,10 +6,18 @@ document.getElementById("validar").addEventListener("click", takeCardNumber);
 
 function takeCardNumber(){
     let creditCardNumber = document.getElementById("card").value;
-    validator.isValid(creditCardNumber);
-    validator.maskify(creditCardNumber);
+    if (validator.isValid(creditCardNumber) == true){
+        document.getElementById("respuesta").innerHTML = name + " su tarjeta N° " + validator.maskify(creditCardNumber) + "\n es Valida";
+        //validator.maskify(creditCardNumber);
+    } else {
+        document.getElementById("respuesta").innerHTML = " su tarjeta N° " + validator.maskify(creditCardNumber) + "\n es Invalida";
+
+    }
+    
+
 
 }
+
 
 //Enlace de boton comprar con la siguiente pagina
 

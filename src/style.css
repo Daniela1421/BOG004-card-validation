@@ -164,6 +164,42 @@ main {
     align-items: center;
 }
 
+
+.pagina3 {
+    display: flex;
+    flex-flow: row;
+    flex-basis: 50%;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 4em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
+
+}
+
+.form {
+    border: 1px black solid;
+    padding: 1em;
+   
+   /* flex-basis: 35%;*/
+}
+
+.form ul li {
+    list-style: none;
+}
+
+.form ul li input{
+    align-items: center;
+}
+
+.numberCard {
+    border: 1px black solid;
+    padding: 1em;
+
+    /*flex-basis: 35%;*/
+
+}
+
 footer {
     display: flex;
     flex-flow: row wrap;

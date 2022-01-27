@@ -2,57 +2,47 @@ body{
     margin: 0;
     padding: 0;
     
-
-
-    
-    
-    
     
 }
 
 header {
     display: flex;
-    
-    flex-flow: row nowrap;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
     border: 1px black solid;
-    
     background-color: aliceblue;
     
+  
     
 }
 
 h1 {
     display: flex;
-    border: 1px black solid;
     flex-basis: 25%;
-    margin: 0%;
     justify-content: center;
     align-items: center;
     font-family:'Mochiy Pop P One', sans-serif;
     font-size: 3em;
+    border: 1px black solid;
+    margin: 0%;
 }
 
 nav {
     display: flex;
-    border: 1px black solid;
-    text-decoration: none;
     flex-basis: 50%;
-    flex-shrink: 2;
-    padding: 0%;
     align-items: center;
     justify-content: space-around;
     font-family: 'Dosis', sans-serif;
     font-size: 1.7em;
-    
+    border: 1px black solid;
+    text-decoration: none;
+    padding: 0%;
 
 }
 
 nav ul {
-    display: flex;
-    /*align-items: center;*/
     padding: 0%;
-    justify-content: space-around;
     
 }
 
@@ -85,8 +75,6 @@ main {
     padding-left: 4px;
     margin-right: 12em;
     margin-left: 12em;
-
-    
     
 }
 
@@ -100,7 +88,7 @@ main {
     margin-top: 4em;
     font-family: 'Dosis', sans-serif;
     font-size: 1.3em;
-
+    text-align: center;
 }
 
 
@@ -181,23 +169,21 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     border: 1px black solid;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     font-family: 'Dosis', sans-serif;
     background-color: aliceblue;
-    
+    /*margin-top: 2.5em;*/
 
      
 }
 
 .redesFooter {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
     align-content: space-between;
     border: 1px black solid;
     flex-basis: 25%;
-    object-fit: cover;
     font-size: 1.3em;
 
     

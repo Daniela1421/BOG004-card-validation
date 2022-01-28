@@ -26,6 +26,7 @@ h1 {
     padding-left: 0.5em;
     padding-right: 0.5em;
     background-color: rgba(113, 138, 227);
+    width: 97.2%;
 }
 
 nav {
@@ -86,7 +87,7 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     gap: 1em;
-    margin-top: 4em;
+    margin-top: 2em;
     font-family: 'Dosis', sans-serif;
     font-size: 1.3em;
     text-align: center;
@@ -187,7 +188,7 @@ main {
     flex-flow: row;
     justify-content: center;
     gap: 1em;
-    margin-top: 4em;
+    margin-top: 2em;
     font-family: 'Dosis', sans-serif;
     font-size: 1.3em;
 
@@ -274,10 +275,10 @@ main {
 
 footer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     position: fixed;
-    bottom: 0;
+    bottom: 0%;
     font-family: 'Dosis', sans-serif;
     
 }
@@ -286,7 +287,7 @@ footer {
     display: flex;
     align-items: center;   
     align-content: space-between;
-    flex-basis: 25%;
+    flex-basis: 33%;
     font-size: 1.3em;
     background-color: rgba(113, 138, 227);
     padding-left: 0.5em;
@@ -309,7 +310,7 @@ footer {
 
 .autors {
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 33%;
     align-items: center;
     justify-content: center;
     font-size: 1.6em;
@@ -318,11 +319,11 @@ footer {
 
 .datos {
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 33%;
     font-size: 1.3em;
     align-items: center;
     background-color: rgba(113, 138, 227);
-    padding-right: 0.5em;
+    padding-left: 1em;
 }
 
 .datos ul {

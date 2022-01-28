@@ -39,28 +39,28 @@
             <h3>Agility Gold 15KG</h3>
             <img src="./img/Agility Gold 15Kg.png" alt="Agility Gold 15Kg">
             <h4>$ 458.000</h4>
-            <input type="button" id="comprar1" value="Comprar">
+            <input type="button" class="btnComprar" id="comprar1" value="Comprar">
   
           </div>
           <div class="two">
             <h3>Pelota porta Snacks</h3>
             <img src="./img/PelotaSnacks.png" alt="PelotaSnacks">
             <h4>$ 8.000</h4>
-            <input type="button" id="comprar2" value="Comprar">
+            <input type="button" class="btnComprar" id="comprar2" value="Comprar">
           </div>
           
           <div class="three">
             <h3>Collar Perro</h3>
             <img src="./img/CollarPerro.png" alt="CollarPerro">
             <h4>$ 58.000</h4>
-            <input type="button" id="comprar3" value="Comprar">
+            <input type="button" class="btnComprar" id="comprar3" value="Comprar">
           </div>  
 
           <div class="four">
             <h3>Arenera Para Gatos</h3>
-            <img src="./img/arenera-product.jpg" alt="AreneraGatos" width="200em" height="190em">
+            <img src="./img/arenera-product.png" alt="AreneraGatos" width="200em" height="190em">
             <h4>$ 95.500</h4>
-            <input type="button" id="comprar4" value="Comprar">
+            <input type="button" class="btnComprar" id="comprar4" value="Comprar">
           </div>
 
         </div>
@@ -77,10 +77,10 @@
           <div class="form">
             <h2> Completa la información para finalizar tu compra:</h2>
             <ul>
-              <li>Nombre y Apellido<input type="text" placeholder="Nombre" class="cuadro" name= "name"></li>
-              <li>N° documento <input type="text" placeholder="Documento" class="cuadro" name="name" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"></li>
-              <li>N° Teléfono<input type="text" placeholder="Teléfono" class="cuadro" name="name" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"></li> 
-               <li>Dirección<input type="text" placeholder="Dirección" class="cuadro" name="name"></li> 
+              <li>Nombre y Apellido <input type="text" placeholder="Nombre" class="cuadro" name= "name"></li>
+              <li>N° documento      <input type="text" placeholder="Documento" class="cuadro" name="name" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"></li>
+              <li>N° Teléfono       <input type="text" placeholder="Teléfono" class="cuadro" name="name" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"></li> 
+               <li>Dirección        <input type="text" placeholder="Dirección" class="cuadro" name="name"></li> 
                           
              </ul> 
              
@@ -90,7 +90,10 @@
             <input type="password" maxlength="19" placeholder="Solo caracteres númericos" id="card" name="number" 
             onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
             <input type="button" id="validar" value="Validar">
-            <p id="respuesta">          </p>
+            <p id="respuesta"></p>
+            <p id="felicitaciones"></p>
+            <p id="rectificar"></p>
+
             <!--<img src="./img/perro feliz.jpg" alt="Perrito Feliz">
             <img src="./img/perro-triste.jpg" alt="Perrito triste">-->
          </div>  

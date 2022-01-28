@@ -166,6 +166,21 @@ main {
     align-items: center;
 }
 
+.btnComprar {
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.2em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 23px;
+    width: 6em;
+    text-align: center;
+    background-color: rgba(113, 138, 227);
+    color: rgb(59, 16, 100);
+}
+
+.btnComprar:hover {
+    background-color: whitesmoke;
+}
 
 .pagina3 {
     display: flex;
@@ -190,6 +205,24 @@ main {
 .form ul li {
     list-style: none;
     text-align: center;
+    padding: 0.3em;
+    
+}
+
+.form h2 {
+    text-align: center;
+    
+}
+
+.cuadro {
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.4em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    width: 15em;
+    text-align: center;
+
 }
 
 .numberCard {
@@ -199,6 +232,44 @@ main {
     border-radius: 1em 3em;
     box-shadow: 0em 0em 2em rgb(134, 155, 233);
     background-color: rgb(179, 192, 241);
+}
+
+#card {
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.4em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    width: 15em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#validar {
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.2em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 23px;
+    width: 8em;
+    text-align: center;
+    background-color: rgba(113, 138, 227);
+    color: rgb(59, 16, 100);
+    
+}
+
+#validar:hover {
+    background-color: whitesmoke;
+}
+
+#rectificar {
+    color: red;
+    font-weight: bolder;
+}
+
+#felicitaciones {
+    color: green;
+    font-weight: bolder;
 }
 
 footer {

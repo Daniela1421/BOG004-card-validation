@@ -6,10 +6,12 @@ document.getElementById("validar").addEventListener("click", takeCardNumber);
 function takeCardNumber(){
     let creditCardNumber = document.getElementById("card").value;
     if (validator.isValid(creditCardNumber) == true){
-        document.getElementById("respuesta").innerHTML = "Su tarjeta N° " + validator.maskify(creditCardNumber) + "\n es Valida";
-        alert("Felicidades por su compra!")
+        document.getElementById("respuesta").innerHTML = "Su tarjeta N° " + validator.maskify(creditCardNumber) + "\n es Valida.";
+        document.getElementById("felicitaciones").innerHTML = "Pago exitoso"
+        //alert("Felicidades por su compra!")
     } else {
-        document.getElementById("respuesta").innerHTML = "Su tarjeta N° " + validator.maskify(creditCardNumber) + "\n es Invalida";
+        document.getElementById("respuesta").innerHTML = "Su tarjeta N° " + validator.maskify(creditCardNumber) + "\n es Invalida.";
+        document.getElementById("rectificar").innerHTML = "Por favor verifique sus datos.";
 
     }
 

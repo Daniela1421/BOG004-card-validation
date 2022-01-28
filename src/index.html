@@ -71,27 +71,32 @@
 
 
 
-      <section id="pag3" class="pagina3">
-        <div class="form">
-          <h2> Completa la información para finalizar tu compra</h2>
-          <h3> 
-            Nombre y Apellido ------- HOLA
-            <input type="text" placeholder="Nombre" id="name">
-            N° documento
-            <input type="text" placeholder="Documento" id="Cuadro1" name="name">
-            N° Teléfono
-            <input type="text" placeholder="Teléfono" id="Cuadro2" name="name">
-            Dirección
-            <input type="text" placeholder="Dirección" id="Cuadro3" name="name">
-          </h3>
-       </div>
-       <div class="numberCard">
-          <h2>
-           Ingresa tu número de tarjeta ---COMO ESTAS
-          </h2>
-          <input type="text" placeholder="Número" id="card" name="">
-          <input type="button" id="validar" value="Validar">
-       </div>  
+      <section id="pag3">
+
+        <div class="pagina3">
+          <div class="form">
+            <h2> Completa la información para finalizar tu compra:</h2>
+            <ul>
+              <li>Nombre y Apellido<input type="text" placeholder="Nombre" class="cuadro" name= "name"></li>
+              <li>N° documento <input type="text" placeholder="Documento" class="cuadro" name="name" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"></li>
+              <li>N° Teléfono<input type="text" placeholder="Teléfono" class="cuadro" name="name" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"></li> 
+               <li>Dirección<input type="text" placeholder="Dirección" class="cuadro" name="name"></li> 
+                          
+             </ul> 
+             
+         </div>
+         <div class="numberCard">
+            <h2>Ingresa tu número de tarjeta:</h2>
+            <input type="password" maxlength="19" placeholder="Solo caracteres númericos" id="card" name="number" 
+            onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+            <input type="button" id="validar" value="Validar">
+            <p id="respuesta">          </p>
+            <!--<img src="./img/perro feliz.jpg" alt="Perrito Feliz">
+            <img src="./img/perro-triste.jpg" alt="Perrito triste">-->
+         </div>  
+
+        </div>
+        
        </section>
 
             

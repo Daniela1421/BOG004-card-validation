@@ -184,37 +184,36 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 3. Caracteristicas del proyecto
 
-Happy pets es una aplicación web que le permitira al usuario validar el numero de su tarjeta de crédito y tendra tambien la funcionalidad de ocultar todos los digitos de la tarjeta menos los últimos cuatro. Esta aplicación web se desarrollara a través de una tienda de mascotas que ofrece variedad de productos como alimentos, juguetes y accesorios para las mismas, los cuales podran ser comprados por medio de la tarjeta de crédito que pasara por el proceso de verificación por medio del algoritmo de luhn. 
+Happy pets es una aplicación web que le permitirá al usuario validar el número de su tarjeta de crédito y tendrá también la funcionalidad de ocultar todos los dígitos de la tarjeta menos los últimos cuatro. Esta aplicación web se desarrollará a través de una tienda de mascotas que ofrece variedad de productos como alimentos, juguetes y accesorios para las mismas, los cuales podrán ser comprados por medio de la tarjeta de crédito que pasara por el proceso de verificación mediante del algoritmo de Luhn.
 
 ### Diseño de experiencia de usuario 🚀
 
-Happy pets esta enfocado hacia personas amantes de los animales, que buscan darles los mejores cuidados a sus mascotas ofreciendo productos de calidad y brindando consejos para mejorar la calidad de vida de nuestros amigos.
-
-Primero se diseño un protipo en papel de como en principio se deseaba que se viera la página, intengrando la funcionalidad para validar la tarjeta, y este diseño lo llevamos a google slides. 
-
+Happy pets está enfocado hacia personas amantes de los animales, que buscan darles los mejores cuidados a sus mascotas ofreciendo productos de calidad y brindando consejos para mejorar la calidad de vida de nuestros amigos.
+Primero se diseñó un prototipo en papel de como en principio se deseaba que se viera la página, integrando la funcionalidad para validar la tarjeta, y este diseño lo llevamos a google slides.
+ 
 ##### Diseño en papel
 ![image](https://user-images.githubusercontent.com/92064924/150433188-dd2c263a-a370-43d2-aa85-2708e9e70c7e.png)
 ##### Diseño en google slides
 ![image](https://user-images.githubusercontent.com/92064924/151592476-b0db7afa-e19f-41f8-a73f-82c8de3050e8.png)
 
 #### Segundo diseño
-Al pensar en la experiencia del usuario, se queria brindar al mismo una expriencia mas intuitiva, por esto se opto por suprimir varias imagenes para no recargar la vista de la pagina y que fuera agradable y facil de manejar. 
+Al pensar en el usuario, se le quiso brindar al mismo una experiencia más intuitiva, es por esto que se opto por suprimir varias imágenes para no recargar la vista de la página y que fuera agradable y fácil de manejar.
 
 ![image](https://user-images.githubusercontent.com/92064924/151590726-f12e9b4e-6e9d-410b-8e6d-d2d5c8f0041f.png)
 
 #### Diseño final 
-Cuando se mostro el segundo prototipo, nos hcieron la recomendación de cambiar el tamaño del header y footer, porque es lo que se esta utilizando actualmente en las aplicaciones web, además esto tambien lo sugirio una persona que conoce del tema de diseño de experiencia de usuario. 
-Despues del feedback, se decidio extender a todo el ancho de la paginá el header y footer dandole un mejor aspecto a la aplicación web. 
+Cuando se mostró el segundo prototipo, nos hicieron la recomendación de cambiar el tamaño del header y footer, porque es lo que se está utilizando actualmente en las aplicaciones web, además esto también lo sugirió una persona que conoce del tema de diseño de experiencia de usuario. 
+Despues del feedback, se decidió extender a todo el ancho de la página el header y footer dándole un mejor aspecto a la aplicación web.
+
 ![image](https://user-images.githubusercontent.com/92064924/151593345-e1d20a4e-940e-474f-b6ff-9763bc4cc2c5.png)
 
 ## 4. Instrucciones de uso
 Cuando el usuario abra la aplicación web se va a encontrar con una primera pantalla en la cual hallara tres secciones:
+1. El nombre de la tienda de mascotas con el menú de navegación.
+2. Sección de productos donde el usuario podrá elegir y comprar el producto de su interés. 
+3. Información de la tienda como horario de atención, teléfono, email y redes sociales de la misma.
 
-- El nombre de la pagina con tienda de mascotas con el menu de navegación 
-- Sección de productos donde el usuario podra elegir y comprar el producto de su interes. 
-- Información de la tienda como horario de atención, telefono, email y redes sociales de la misma. 
-
-Para que el usuario pueda validar su tarjeta deberá seleccionar el producto de su agrado y hacer click en el boton de comprar y este lo llevara a otra sección en la cual tendra que ingresar sus datos con el número de su tarjeta de crédito y al clickear en el botón de validar se mostrara si el número de tarjeta es valido o invalido. 
+Para que el usuario pueda validar su tarjeta deberá seleccionar el producto de su agrado y hacer click en el botón de comprar y este lo llevara a otra sección en la cual tendrá que ingresar sus datos con el número de su tarjeta de crédito y al clickear en el botón de validar se mostrara si el número de tarjeta es válido o invalido.
 
 ## 5. Autores ✒️
 

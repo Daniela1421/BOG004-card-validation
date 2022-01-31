@@ -31,4 +31,3 @@ function hidePages(){
     document.getElementById('pag3').style.display = 'block';
     
 }
-

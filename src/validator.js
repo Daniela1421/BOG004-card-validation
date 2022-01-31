@@ -1,12 +1,22 @@
-// 
+/* 
+Se declara un objeto el cual va a tener dos metodos que son las funciones 
+que permiten la validacion del numero de la tarjeta y el enmascarado de todos 
+numeros de la tajeta menos los ultimos cuatro digitos que el usuario va a ingresar
+*/
 const validator = {
   //
   isValid,maskify
 }
 
-//Funcion para validad el numero de la tarjeta de credito.
+/*
+Metodo para validad el numero de la tarjeta de credito segun el algoritmo de Luhn.
 
-function isValid(creditCardNumber){
+
+*/
+
+let isValid = creditCardNumber => 
+
+/*function isValid(creditCardNumber)*/{
 
   //console.log(creditCardNumber);
   let  numberCardReverse = creditCardNumber.split("").reverse();

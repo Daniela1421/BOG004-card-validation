@@ -3,6 +3,7 @@ Se declara un objeto llamado "validator" el cual va a tener dos metodos que son 
 que permiten la validacion del numero de la tarjeta y el enmascarado de todos 
 numeros de la tajeta menos los ultimos cuatro digitos que el usuario va a ingresar
 */
+
 const validator = {
   isValid,maskify
 }
@@ -39,25 +40,18 @@ arrayInteger.
 
 Para sumar todos los numero que contiene el arrayInteger utilizamos el metodo reduce y guardamos ese valor enn la 
 variable sum la cual la condicionamos con el modulo 10 y si es igual a cero retornamos true si no, retornamos false.
-
 */
 
 function isValid(creditCardNumber){
 
-  //console.log(creditCardNumber);
   let  numberCardReverse = creditCardNumber.split("").reverse();
-  console.log(numberCardReverse);
-  console.log(typeof(creditCardNumber))
-  
   let arrayPair = [];
   let theDouble = 0;
     for(let i = 0; i < numberCardReverse.length; i++) {
       if(i % 2 != 0){
         theDouble = numberCardReverse[i] * 2;
         if (theDouble > 9){
-        
         let divided = theDouble.toString().split(' ');
-        
         let num1 = parseInt(divided[0][0]) + parseInt(divided[0][1]);
         arrayPair.push(num1);
         }else{
@@ -67,27 +61,19 @@ function isValid(creditCardNumber){
         arrayPair.push(numberCardReverse[i])
       }
       }
-      console.log(arrayPair);
-  
       let arrayInteger = arrayPair.toString().split(",").map(function(item){
         return parseInt(item);
     });
-  
-      console.log (arrayInteger);
-      let sum = arrayInteger.reduce(function(a, b){
+        let sum = arrayInteger.reduce(function(a, b){
         return a + b;
       });
-      console.log(sum)
       if (sum % 10 == 0){
-        console.log("Es valido")
         return true
       }else{
-        console.log("No es valido, verifique los datos")
         return false
       }
 }
  
-   
 /* Metodo para ocultar los digitos de la tarjeta, excepto los ultimos cuatro digitos.
 
 Se llama a la variable creditCardNumber que contiene el numero de tarjeta dado por el usuario.
@@ -99,12 +85,9 @@ datos menos los ultimos cuatro y los cambie por el numeral (#) y los guarde el u
 los ultimos cuatro digitos quedan agregados en el array con su valor incial. 
 
 Para mostrar el array final utilizamos el metodo join para unir cada dato y que los muestre sin espacios entre ellos en una cadena.
-
-
 */
 
    function maskify(creditCardNumber){
-
     let numberCardNext = creditCardNumber.split("");
      let hide = [];
      for(let i = 0; i < numberCardNext.length; i++){
@@ -112,16 +95,10 @@ Para mostrar el array final utilizamos el metodo join para unir cada dato y que 
          hide.push("#");
        }else{
          hide.push(numberCardNext[i]);
-        //console.log(ocultar)
        }
      }
      let hiddenNumber = hide.join("");
-     console.log(hiddenNumber);
      return hiddenNumber;
-
 }
-
-
-
 
 export default validator;

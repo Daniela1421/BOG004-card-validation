@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(./img/fondo.png);
-    
 }
 
 header {
@@ -11,7 +10,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-basis: 80%;
-    
 }
 
 h1 {
@@ -22,10 +20,8 @@ h1 {
     font-family:'Mochiy Pop P One', sans-serif;
     font-size: 3em;
     margin: 0%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     background-color: rgba(113, 138, 227);
-    width: 97.2%;
+    width: 100%;
 }
 
 nav {
@@ -41,13 +37,11 @@ nav {
 
 nav ul {
     padding: 0%;
-    
 }
 
 nav ul li {   
     list-style: none;
     display: inline-block;
-        
 }
 
 nav ul li a {
@@ -57,6 +51,7 @@ nav ul li a {
     background-color: rgba(113, 138, 227);
     border-radius: 2em;
 }
+
 nav ul li a:hover {
     background-color: whitesmoke;
 }
@@ -67,7 +62,6 @@ nav ul li a:hover {
 
 #pag3 {
     display: none;
-
 }
 
 main {    
@@ -99,7 +93,6 @@ main {
     border-radius: 5%;
     box-shadow: 0em 0em 1em rgb(134, 155, 233);
     background-color: rgb(179, 192, 241);
-
 }
 
 .one h3 img {
@@ -142,7 +135,6 @@ main {
 
 .three h4 {
     margin: 4em 0 1.3em 0;
-
 }
 
 .four {
@@ -185,7 +177,6 @@ main {
     margin-top: 2em;
     font-family: 'Dosis', sans-serif;
     font-size: 1.3em;
-
 }
 
 .form {
@@ -201,12 +192,10 @@ main {
     list-style: none;
     text-align: center;
     padding: 0.3em;
-    
 }
 
 .form h2 {
     text-align: center;
-    
 }
 
 .cuadro {
@@ -217,7 +206,6 @@ main {
     font-size: 20px;
     width: 15em;
     text-align: center;
-
 }
 
 .numberCard {
@@ -250,7 +238,6 @@ main {
     text-align: center;
     background-color: rgba(113, 138, 227);
     color: rgb(59, 16, 100);
-    
 }
 
 #validar:hover {
@@ -274,7 +261,6 @@ footer {
     position: fixed;
     bottom: 0%;
     font-family: 'Dosis', sans-serif;
-    
 }
 
 .redesFooter {
